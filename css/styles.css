@@ -1,0 +1,188 @@
+:root {
+  --main-body-color: #ffffff;
+  --main-text-color: #434455;
+  --main-title-color: #2e2f42;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--main-body-color);
+  color: var(--main-text-color);
+}
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+.list {
+  list-style: none;
+}
+/* ------------------------Header------------------ */
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-header-part {
+  color: #2e2f42;
+}
+.nav-item-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.nav-item-link:is(:hover, :focus) {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+.address-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.address-item:is(:hover, :focus) {
+  color: #404bbf;
+}
+/* -----------------------------------------------------------------Main------------------- */
+/* ------------------------Section 1------------------ */
+.first-section {
+  background-color: #2e2f42;
+}
+.first-section-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.first-section-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+}
+.first-section-btn:is(:hover, :focus) {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+/* ------------------------Section 2------------------ */
+.second-section-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.second-section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+/* ------------------------Section 3------------------ */
+.third-section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-title-color);
+}
+/* ------------------------Section 4------------------ */
+.forth-section {
+  background-color: #f4f4fd;
+}
+.forth-section-item {
+  background-color: #ffffff;
+}
+.forth-section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-title-color);
+}
+.forth-section-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.forth-section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+/* ---------------------------------------------------------Portfolio------------------ */
+.portfolio-btn {
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+.portfolio-btn:is(:hover, :focus) {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+/* ------------------------Footer------------------ */
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-logo-part {
+  color: #f4f4fd;
+}
